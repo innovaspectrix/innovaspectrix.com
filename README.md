@@ -1,2 +1,0 @@
-# innovaspectrix.com
-Webiste 
