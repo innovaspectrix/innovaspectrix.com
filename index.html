@@ -77,8 +77,23 @@
   .nav-logo {
     display: flex;
     align-items: center;
+    gap: 0.8rem;
     z-index: 102;
     text-decoration: none;
+  }
+
+  .logo-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .logo-text span {
+    color: var(--gold);
   }
 
   /* --- LOGO IMAGE STYLING --- */
@@ -1027,6 +1042,7 @@
   .footer-logo {
     display: flex;
     align-items: center;
+    gap: 0.8rem;
   }
 
   .footer-info {
@@ -1191,7 +1207,8 @@
       padding: 4rem 1.5rem; 
     }
     nav { padding: 0.5rem 1.5rem; }
-    .logo-img { height: 65px; } /* Slightly smaller for mobile phones */
+    .logo-img { height: 45px; } /* Shrink image to fit text on mobile */
+    .logo-text { font-size: 1.2rem; }
     
     .hero-btns { flex-direction: column; width: 100%; }
     .btn-primary, .btn-outline { width: 100%; text-align: center; }
@@ -1267,6 +1284,7 @@
   <!-- Updated Logo Tag -->
   <a href="#hero" class="nav-logo">
     <img src="logo.jpg" alt="INNOVASPECTRIX" class="logo-img" onerror="this.onerror=null; this.style.display='none';">
+    <span class="logo-text">Innova<span>Spectrix</span></span>
   </a>
   
   <div class="hamburger" id="hamburger">
@@ -1664,6 +1682,7 @@
   <!-- Updated Logo Tag in Footer -->
   <div class="footer-logo">
     <img src="logo.jpg" alt="INNOVASPECTRIX" class="logo-img" onerror="this.onerror=null; this.style.display='none';">
+    <span class="logo-text">Innova<span>Spectrix</span></span>
   </div>
   <div class="footer-info">
     © 2025 INNOVASPECTRIX · Avadi, Chennai, Tamil Nadu, India<br>
